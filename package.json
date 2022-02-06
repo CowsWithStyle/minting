@@ -1,6 +1,6 @@
 {
  
-  "homepage": "http://NFTCowHerd.github.io/MintingDapp",
+  "homepage": "http://NFTCowHerd.github.io/MintingSite",
 
   "name": "nft_cow_herd_minting_dapp",
  
@@ -49,19 +49,12 @@
   "license": "MIT",
  
   "scripts": {
- 
-   
-  "start": "react-scripts start",
- 
-   
-  "build": "react-scripts build",
- 
-   
-  "predeploy": "npm run build",
- 
-   
-  "deploy": "gh-pages -d build"
- 
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
  
   "browserslist": {
