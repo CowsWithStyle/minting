@@ -237,19 +237,10 @@ function App() {
                 color: "var(--accent-text)",
               }}
             >
-              Cows With Style will be a collection of 1111 unique cows grazing in the Metaverse with style. Cows like company and so do we! You can join the herd now and mint up to 5 cows. All the metadata and images are generated and stored on Polygon - no IPFS or API envolved.  
+              Cows With Style is a collection of 1111 unique cows grazing in the Metaverse with style. Cows like company and so do we! You can join the herd now and mint up to 5 cows. All the metadata and images are generated and stored on Polygon - no IPFS or API envolved.  
             </s.TextDescription>
 
-            <s.TextTitle
-              style={{
-                textAlign: "center",
-                fontSize: 40,
-                fontWeight: "bold",
-                color: "var(--accent-text)",
-              }}
-            >
-              Minted: {data.totalSupply} / {CONFIG.MAX_SUPPLY}
-            </s.TextTitle>
+            
             
             <s.TextDescription
               style={{
@@ -257,11 +248,20 @@ function App() {
                 color: "var(--primary-text)",
               }}
             >
-
-
-            
+              Contract: 
               <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
                 {truncate(CONFIG.CONTRACT_ADDRESS, 15)}
+              </StyledLink>
+            </s.TextDescription>
+            <s.TextDescription
+              style={{
+                textAlign: "center",
+                color: "var(--primary-text)",
+              }}
+            >
+              Opensea: 
+              <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
+                {CONFIG.MARKETPLACE_LINK}
               </StyledLink>
             </s.TextDescription>
             <s.SpacerSmall />
@@ -312,7 +312,7 @@ function App() {
                         getData();
                       }}
                     >
-                      CONNECT
+                      CONNECT METAMASK
                     </StyledButton>
 
                     {blockchain.errorMsg !== "" ? (
@@ -331,6 +331,17 @@ function App() {
                   </s.Container>
                 ) : (
                   <>
+                    <s.TextTitle
+                    style={{
+                      textAlign: "center",
+                      fontSize: 40,
+                      fontWeight: "bold",
+                      color: "var(--accent-text)",
+                    }}
+                  >
+                    Minted: {data.totalSupply} / {CONFIG.MAX_SUPPLY}
+                  </s.TextTitle>
+
                     <s.TextDescription
                       style={{
                         textAlign: "center",
