@@ -175,7 +175,7 @@ function App() {
   };
 
   const getConfig = async () => {
-    const configResponse = await fetch("/MintingDapp/config/config.json", {
+    const configResponse = await fetch("/minting/config/config.json", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -199,13 +199,13 @@ function App() {
         flex={1}
         ai={"center"}
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
-        image={CONFIG.SHOW_BACKGROUND ? "/MintingDapp/config/images/bg.png" : null}
+        image={CONFIG.SHOW_BACKGROUND ? "/minting/config/images/bg.png" : null}
       >
         
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg alt={"example"} src={"/MintingDapp/config/images/example.gif"} />
+            <StyledImg alt={"example"} src={"/minting/config/images/example.gif"} />
           </s.Container>
           <s.SpacerLarge />
           <s.Container
@@ -257,6 +257,9 @@ function App() {
                 color: "var(--primary-text)",
               }}
             >
+
+
+            
               <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
                 {truncate(CONFIG.CONTRACT_ADDRESS, 15)}
               </StyledLink>
@@ -392,7 +395,7 @@ function App() {
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg
               alt={"example"}
-              src={"/MintingDapp/config/images/example.gif"}
+              src={"/minting/config/images/example.gif"}
               style={{ transform: "scaleX(-1)" }}
             />
           </s.Container>
