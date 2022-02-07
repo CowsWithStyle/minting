@@ -252,7 +252,20 @@ function App() {
               <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
                 {CONFIG.CONTRACT_ADDRESS}
               </StyledLink>
+              
             </s.TextDescription>
+
+            <s.TextDescription
+              style={{
+                textAlign: "center",
+                color: "var(--primary-text)",
+              }}
+            >
+            <StyledLink target={"_blank"} href={CONFIG.MARKETPLACE_LINK}>
+                  Opensea Cows With Style
+                </StyledLink>
+            </s.TextDescription>
+
             <s.TextDescription
               style={{
                 textAlign: "center",
