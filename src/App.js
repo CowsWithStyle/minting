@@ -145,7 +145,7 @@ function App() {
       .then((receipt) => {
         console.log(receipt);
         setFeedback(
-          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit <a href=\'https://opensea.io/collection/cows-with-style\'> to view it.`
+          `The mint was successful! Visit opensea.io/collection/cows-with-style to view what you minted.`
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
