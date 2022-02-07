@@ -145,7 +145,7 @@ function App() {
       .then((receipt) => {
         console.log(receipt);
         setFeedback(
-          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit Opensea.io to view it.`
+          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit <a href=\'https://opensea.io/collection/cows-with-style\'> to view it.`
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
@@ -248,7 +248,7 @@ function App() {
                 color: "var(--accent-text)",
               }}
             >
-              Minted: {data.totalSupply} / {CONFIG.MAX_SUPPLY}
+              Minted: {data.minted} / {CONFIG.MAX_SUPPLY}
             </s.TextTitle>
             
             <s.TextDescription
@@ -265,7 +265,7 @@ function App() {
               </StyledLink>
             </s.TextDescription>
             <s.SpacerSmall />
-            {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
+            {Number(data.minted) >= CONFIG.MAX_SUPPLY ? (
               <>
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
