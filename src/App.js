@@ -250,7 +250,7 @@ function App() {
             >
           
               <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
-                {truncate(CONFIG.CONTRACT_ADDRESS, 15)}
+                {CONFIG.CONTRACT_ADDRESS}
               </StyledLink>
             </s.TextDescription>
             <s.TextDescription
@@ -284,7 +284,6 @@ function App() {
                
                 <s.SpacerXSmall />
                 
-                <s.SpacerSmall />
                 {blockchain.account === "" ||
                 blockchain.smartContract === null ? (
                   <s.Container ai={"center"} jc={"center"}>
@@ -294,7 +293,7 @@ function App() {
                         color: "var(--accent-text)",
                       }}
                     >
-                      Connect to the {CONFIG.NETWORK.NAME} network
+                      Connect to the {CONFIG.NETWORK.NAME} network to mint. 
                     </s.TextDescription>
                     <s.SpacerSmall />
                     <StyledButton
