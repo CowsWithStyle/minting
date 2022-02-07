@@ -175,7 +175,7 @@ function App() {
   };
 
   const getConfig = async () => {
-    const configResponse = await fetch("/config/config.json", {
+    const configResponse = await fetch("MintingDapp/config/config.json", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
