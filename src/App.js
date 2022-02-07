@@ -333,12 +333,12 @@ function App() {
                     Minted: {data.totalSupply} / {CONFIG.MAX_SUPPLY}
                   </s.TextTitle>
 
-                  <s.TextTitle
+                  <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                   >
                     1 Cow costs {CONFIG.DISPLAY_COST}{" "}
                     {CONFIG.NETWORK.SYMBOL}{" "} (excluding gas fees). Make sure you send enough gas for the transaction to execute successfully.
-                  </s.TextTitle>
+                  </s.TextDescription>
 
                     <s.TextDescription
                       style={{
