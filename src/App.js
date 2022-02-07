@@ -391,7 +391,7 @@ function App() {
                           getData();
                         }}
                       >
-                        {claimingNft ? "BUSY" : "BUY"}
+                        {claimingNft ? "PROCESSING" : "BUY"}
                       </StyledButton>
                     </s.Container>
                   </>
@@ -410,7 +410,7 @@ function App() {
           </s.Container>
         </ResponsiveWrapper>
         <s.SpacerMedium />
-        <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
+        <s.Container jc={"center"} ai={"center"} style={{ width: "90%" }}>
           <s.TextDescription
             style={{
               textAlign: "center",
