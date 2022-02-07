@@ -419,7 +419,6 @@ function App() {
           >
             Make sure you are connected to the {CONFIG.NETWORK.NAME} Mainnet and use the correct account. Once you mint an NFT, you cannot undo this action.
           </s.TextDescription>
-          <s.SpacerSmall />
           <s.TextDescription
             style={{
               textAlign: "center",
