@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x7fB908e3F67eAb6e2121657BbE009b4de3C44771",
+  "SCAN_LINK": "https://polygonscan.com/token/0x827acb09a2dc20e39c9aad7f7190d9bc53534192",
+  "NETWORK": {
+    "NAME": "Polygon",
+    "SYMBOL": "Matic",
+    "ID": 137
+  },
+  "NFT_NAME": "Cows With Style",
+  "SYMBOL": "CWS",
+  "MAX_SUPPLY": 1111,
+  "WEI_COST": 5000000000000000000,
+  "DISPLAY_COST": 5,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opensea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/cows-with-style",
+  "SHOW_BACKGROUND": true
+}

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/minting/static/css/main.344cb8f4.chunk.css",
+    "main.js": "/minting/static/js/main.24292c10.chunk.js",
+    "main.js.map": "/minting/static/js/main.24292c10.chunk.js.map",
+    "runtime-main.js": "/minting/static/js/runtime-main.8b075f26.js",
+    "runtime-main.js.map": "/minting/static/js/runtime-main.8b075f26.js.map",
+    "static/js/2.a7076b86.chunk.js": "/minting/static/js/2.a7076b86.chunk.js",
+    "static/js/2.a7076b86.chunk.js.map": "/minting/static/js/2.a7076b86.chunk.js.map",
+    "static/js/3.9c68c855.chunk.js": "/minting/static/js/3.9c68c855.chunk.js",
+    "static/js/3.9c68c855.chunk.js.map": "/minting/static/js/3.9c68c855.chunk.js.map",
+    "index.html": "/minting/index.html",
+    "static/css/main.344cb8f4.chunk.css.map": "/minting/static/css/main.344cb8f4.chunk.css.map",
+    "static/js/2.a7076b86.chunk.js.LICENSE.txt": "/minting/static/js/2.a7076b86.chunk.js.LICENSE.txt",
+    "static/media/reset.css": "/minting/static/media/font.617a0a92.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b075f26.js",
+    "static/js/2.a7076b86.chunk.js",
+    "static/css/main.344cb8f4.chunk.css",
+    "static/js/main.24292c10.chunk.js"
+  ]
+}
