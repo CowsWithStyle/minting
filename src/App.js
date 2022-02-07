@@ -228,7 +228,7 @@ function App() {
                 color: "var(--accent-text)",
               }}
             >
-              NFT Cow Herd
+              Cows With Style
             </s.TextTitle>
 
             <s.TextDescription
@@ -237,7 +237,7 @@ function App() {
                 color: "var(--accent-text)",
               }}
             >
-              The NFT Cow Herd will be a collection of 9999 unique cows grazing in the Metaverse with style. Cows like company and so do we! You can join the herd now and mint up to 5 cows. All the metadata and images are generated and stored on Polygon - no IPFS or API envolved.  
+              Cows With Style will be a collection of 1111 unique cows grazing in the Metaverse with style. Cows like company and so do we! You can join the herd now and mint up to 5 cows. All the metadata and images are generated and stored on Polygon - no IPFS or API envolved.  
             </s.TextDescription>
 
             <s.TextTitle
