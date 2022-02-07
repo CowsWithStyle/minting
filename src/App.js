@@ -240,7 +240,7 @@ function App() {
               Cows With Style is a collection of 1111 unique cows grazing in the Metaverse with style. Cows like company and so do we! You can join the herd now and mint up to 5 cows. All the metadata and images are generated and stored on Polygon - no IPFS or API envolved.  
             </s.TextDescription>
 
-            
+            <s.SpacerXSmall />
             
             <s.TextDescription
               style={{
@@ -248,7 +248,7 @@ function App() {
                 color: "var(--primary-text)",
               }}
             >
-              Contract: 
+          
               <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
                 {truncate(CONFIG.CONTRACT_ADDRESS, 15)}
               </StyledLink>
@@ -259,10 +259,7 @@ function App() {
                 color: "var(--primary-text)",
               }}
             >
-              Opensea: 
-              <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
-                {CONFIG.MARKETPLACE_LINK}
-              </StyledLink>
+        
             </s.TextDescription>
             <s.SpacerSmall />
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
@@ -284,12 +281,7 @@ function App() {
               </>
             ) : (
               <>
-                <s.TextTitle
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
-                  1 Cow costs {CONFIG.DISPLAY_COST}{" "}
-                  {CONFIG.NETWORK.SYMBOL}{" "} (excluding gas fees).
-                </s.TextTitle>
+               
                 <s.SpacerXSmall />
                 
                 <s.SpacerSmall />
@@ -340,6 +332,13 @@ function App() {
                     }}
                   >
                     Minted: {data.totalSupply} / {CONFIG.MAX_SUPPLY}
+                  </s.TextTitle>
+
+                  <s.TextTitle
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                  >
+                    1 Cow costs {CONFIG.DISPLAY_COST}{" "}
+                    {CONFIG.NETWORK.SYMBOL}{" "} (excluding gas fees).
                   </s.TextTitle>
 
                     <s.TextDescription
