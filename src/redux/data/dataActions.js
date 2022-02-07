@@ -27,8 +27,7 @@ export const fetchData = () => {
     try {
       let totalSupply = await store
         .getState()
-        .blockchain.smartContract.minted
-        .call();
+        .blockchain.smartContract.minted();
       // let cost = await store
       //   .getState()
       //   .blockchain.smartContract.methods.cost()
