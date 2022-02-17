@@ -12,7 +12,7 @@
   "WEI_COST": 5000000000000000000,
   "DISPLAY_COST": 5,
   "GAS_LIMIT": 285000000,
-  "GAS": 9000000,
+
   "MARKETPLACE": "Opensea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/cows-with-style",
   "SHOW_BACKGROUND": true
