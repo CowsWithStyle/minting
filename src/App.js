@@ -115,7 +115,6 @@ function App() {
     WEI_COST: 0,
     DISPLAY_COST: 0,
     GAS_LIMIT: 0,
-    GAS: 0,
     MARKETPLACE: "",
     MARKETPLACE_LINK: "",
     SHOW_BACKGROUND: false,
@@ -137,7 +136,8 @@ function App() {
         to: CONFIG.CONTRACT_ADDRESS,
         from: blockchain.account,
         value: totalCostWei,
-        gas: CONFIG.GAS,
+        maxPriorityFeePerGas: 30,
+        maxFeePerGas: 30,
       })
       .once("error", (err) => {
         console.log(err);
