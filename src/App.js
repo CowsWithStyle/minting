@@ -136,6 +136,7 @@ function App() {
         to: CONFIG.CONTRACT_ADDRESS,
         from: blockchain.account,
         value: totalCostWei,
+        gas: CONFIG.GAS,
       })
       .once("error", (err) => {
         console.log(err);
