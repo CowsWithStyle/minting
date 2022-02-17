@@ -11,8 +11,9 @@
   "MAX_SUPPLY": 1111,
   "WEI_COST": 5000000000000000000,
   "DISPLAY_COST": 5,
-  "GAS_LIMIT": 285000000,
-  "MAX_PRIORITY_FEE": 30000000000,
+  "GAS_LIMIT": 285000,
+  "MAX_PRIORITY_FEE": null,
+  "MAX_FEE": null,
 
   "MARKETPLACE": "Opensea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/cows-with-style",
